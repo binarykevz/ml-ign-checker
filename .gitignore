@@ -1,0 +1,29 @@
+# Version control
+.git/
+.gitignore
+
+# CI/CD and GitHub configurations
+.github/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Dependencies (npm will install these automatically for the user)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Standalone server (users will use your package via `require()`, not by running this file)
+server.js
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing and coverage (if you add them later)
+coverage/
+__tests__/
