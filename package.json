@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git"
+    "url": "https://github.com/binarykevz/ml-ign-checker.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues"
+    "url": "https://github.com/binarykevz/ml-ign-checker/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME#readme",
+  "homepage": "https://github.com/binarykevz/ml-ign-checker#readme",
   "keywords": ["mobile-legends", "codashop", "ign", "api", "express"],
   "author": "Your Name",
   "license": "MIT"
