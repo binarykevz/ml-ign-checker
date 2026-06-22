@@ -17,3 +17,19 @@ Install the package via npm:
 
 ```bash
 npm install ml-ign-checker
+
+NPM DOCUMENTATION
+PROGRAMMATIC USAGE
+
+const { checkMobileLegendsIGN } = require('ml-ign-checker');
+
+async function getPlayerName() {
+  try {
+    const player = await checkMobileLegendsIGN('12345678', '1234');
+    console.log('Player Name:', player.name);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+}
+
+getPlayerName();
