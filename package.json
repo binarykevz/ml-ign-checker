@@ -1,7 +1,7 @@
 {
   "name": "ml-ign-checker",
   "version": "1.0.0",
-  "description": "Check Mobile Legends IGN via Codashop API",
+  "description": "Check Mobile Legends IGN via API",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -10,6 +10,14 @@
     "axios": "^1.6.0",
     "express": "^4.18.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME#readme",
   "keywords": ["mobile-legends", "codashop", "ign", "api", "express"],
   "author": "Your Name",
   "license": "MIT"
